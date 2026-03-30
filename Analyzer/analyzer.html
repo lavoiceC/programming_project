@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <script src="analyzer.js" defer></script>
+    <meta charset="utf-8">
+        <title>Job Description Analyzer</title>
+        </head>
+
+    <body>
+        <div class="container">   
+            <h2>Inclusive Job Posting Analyzer</h2>
+        
+            <form id="jdForm">
+                <label for="JobDescription"> Copy and paste job Description in here:</label>
+                <textarea id="JobDescription" placeholder="Enter a job description here "></textarea>
+                <button type="submit">Analyze</button>
+            </form>
+            <div id="results">
+                <h3> Analysis Result</h3>
+            
+                <div class="section"> 
+                    <p class="score">Overall Score: <span id="OverallScore"></span></p>
+                </div>
+
+                <div class="section">
+                    <h4>Readability</h4>
+                    <p id="Readability"></p>
+                </div>
+
+                <div class="section">
+                    <h4>Bias & Language</h4>
+                    <p id="bias"></p>
+                </div>
+
+                <div class="section">
+                    <h4>Accessibilty</h4>
+                <p id="accessibility"></p>
+                </div>
+
+                <div class="section">
+                    <h4>Recommendation</h4>
+                    <p id="recommendations"></p>
+                </div>
+                 <div class="section">
+                    <h4>Compliance Indicator</h4>
+                    <p id="Compliance"></p>
+                </div>
+
+            </div>
+            
+        </div>
+    </body>
+    
+</html>
