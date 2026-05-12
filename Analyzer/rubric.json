@@ -1,0 +1,15 @@
+[
+    {
+        "bias_terms": [ "rockstar", "young", "energetic", "native English"],
+        "bias_types": {
+            "rockstar": "Gendered", "young": "Age Bias", "native English": "Language Bias"
+        },
+        "accessibility_terms": ["accommodations", "assistive technologies", "flexible schedules", "paid lunch", "extra-time"],
+        "physical_requirement_terms": ["lift", "sit for extended periods"],
+       "compliance_indicator_terms": {
+        "willing too": "Low Risk",
+        "extremely social": "High Risk",
+     "not willing too": "Medium Risk"
+       }
+    }
+]
