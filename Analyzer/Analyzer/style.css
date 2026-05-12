@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, black, orange, yellow);
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,0.1);
+
+}
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+#results {
+    margin-top: 25px;
+    padding: 20px;
+    background: #eef4ff;
+    border-left: 5px solid #0078ff;
+    display:none;
+    border-radius: 6px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+.score {
+    font-weight: bold;
+    color: #0078ff;
+}
